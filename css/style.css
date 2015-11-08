@@ -1,0 +1,113 @@
+header {
+	height: 80px;
+	margin-top: -12px;
+	margin-left: -8px;
+	margin-right: -8px;
+	background: black;
+}
+
+#top {
+	width:980px;
+	margin:0px auto;
+}
+
+
+#logo { 
+	display: inline-block;
+	
+	margin-top: 30px;
+}
+
+#nav {
+	display: inline-block;
+	color: white;
+	font-size: 14px;
+	float:right;
+	margin-top:50px;
+}
+
+span {
+	margin: 0px 14px;
+}
+
+#github-top { 
+	position: absolute;
+	right: 0px;
+	top: 38px;
+}
+
+footer {
+	height:520px;
+	background:black;
+	margin-left:-8px;
+	margin-right:-8px;
+	margin-bottom:-8px;
+	color:white;
+	clear:left;
+}
+
+footer #line {
+	position:relative;
+	top:44px;
+	height:1px;
+	background:white;
+}
+
+#navbottom {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+#bottomlink {
+	font-size: 14px;
+	position: relative;
+	top: 60px;
+}
+
+#bottomlink span.first {
+	margin-left:310px;
+	margin-right:70px;
+}
+
+#bottomlink span {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#bottomlinkenglish {
+	font-size: 14px;
+	position: relative;
+	top: 90px;
+	line-height: 1.7em;
+}
+
+#bottomlinkenglish span.first {
+	margin-left: 310px;
+	margin-right: 84px;
+}
+
+#bottomlinkenglish span {
+	margin-left: 84px;
+	margin-right: 84px;
+}
+
+#githubbottom { 
+	font-size: 14px;
+	text-align: center;
+	position: relative;
+	top: 252px;
+}
+
+a {
+	text-decoration: none;
+	color: white; 
+}
+
+#bottomlinkenglish a:hover {
+	text-decoration:underline;
+}
+
+
