@@ -1,122 +1,140 @@
 body { background:#f6f6f6;}
 
-.main {        
-         
+#main {                
     width: 980px;
     height: 1000px;
     margin: 0px auto;
     margin-top: 20px;
     position:relative;
+
  }  
 
  .main h1 { 
  	font-size: 30px;
  }
 
- .left {
- 	
- }
+#blog-content {                
+    width: 700px; 
+    
+    float:left;
 
+ }  
 
-
- #bd {        
-   
-    background: #f6f6f6;   
- }
-
- #mejpg {
- 	width: 166px;
- 	margin: 0px auto;
- 	position: relative;
- 	top: -50px;
- 	border: 5px black solid;
- 	border-radius: 84px;
- }
-
-/*blog*/
-
-.section1 {
-	width: 660px;
+.content {
+	width:700px;
+	padding:20px;
+	margin-bottom:10px;
 	background: white;
-	padding: 20px;
-	float:left;
+	font-size:12px;
+	line-height:150%;
+	 -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;	
 }
 
-#left {
-	
-	}
-
-#right {
-	background: black;
+.blog-tag-1 {
+	width: 50px;
+	height: 40px;
+	background: red;
+	position: absolute;
+	top: 30px;
+	left: -50px;
+	text-align:center;
 }
 
-.section1 h1,
-.section4 h1 {
+.blog-tag-2 {
+	width: 50px;
+	height: 40px;
+	background: yellow;
+	position: absolute;
+	top: 70px;
+	left: -50px;
+	text-align:center;
+}
+
+.content h1
+ {
 	font-size: 16px;
 }
 
-.section1 h2,
-.section4 h2 {
+.content h2 {
 	font-size: 12px;
 	font-color:#666;
 }
 
 p.info {
-	width: 192px;
+	width: 200px;
 	margin-left: 468px;
 }
 
-.section2 {
-	height: 45px;
-	width: 216px;
+.search {
+	height: 85px;
+	width: 260px;
 	background: white;
-	float: left;
-	position:absolute;
-	right:0px;
-	top:10px;
+	float: right;
+	position:relative;
+	padding:20px;
+	 -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+    box-sizing: border-box;	
 
-
-	
 }
 
 #inputtext {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 42px;
+    height: 45px;
     width: 170px;
     *height: 24px;
-    float: left;
-    position: relative;
-    top: -15px;
+    position:absolute;
+    left:20px;
+    top:20px;
+       
 }
 
-#inputbutton {	
-    font-size: 20px;
-    height: 42px;
-    width: 46px;
+#inputbutton {
+	height: 43px;
+    width: 50px;
+	position:absolute;
+    right:20px;
+    top:20px;
+    font-size: 20px;    
     *height: 24px;
     background: #f6f6f6;
-    color: black;
-    float: left;
-    margin-top: -15px;
+    color: black;   
    text-align: center;
 }
 
-#inputbutton p{
-	margin-top: 10px;}
 
-.section3 {
-	height: 200px;
-	width: 256px;
-	background: white;
-	float: left;
-	
-	font-size: 16px;
-	vertical-align: middle;
+#inputbutton a{
+	position: relative;
+	top: 9px;
+	padding: 9px 10px;
+	border: 1px solid black;
 }
 
-.section3 div {
+
+#inputbutton a:hover{
+	background: black;
+	color: white;
+}          
+
+.side-link {
+	height: 200px;
+	width: 260px;
+	margin-top:10px;
+	background: white;
+	float: right;
+	font-size: 16px;
+	vertical-align: middle;
+	 -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.side-link div {
 	height: 50px;
 	line-height: 49px;
 	border-bottom: 1px solid black;
@@ -124,56 +142,86 @@ p.info {
  	padding-left: 15px;
  }
 
-.section5 {
-	height: 220px;
-	width: 216px;
-	background: white;
-	
-	
+.side-link a, 
+.section2 a, 
+.section7 a, 
+.section8 a {
+	color:#000000;
+}
+
+.side-link a {
+	border-left:3px solid black;
+	padding-top:16px;
+	padding-left:0px;
+	padding-bottom:18px;
+	padding-left:20px;
+	position:relative;
+	left:-17px;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.side-link a:hover {
+	border-left:3px solid yellow;
+} 
+
+.calender {
+	height: 250px;
+	width: 260px;
+	margin-top:15px;
 	padding: 20px;
 	line-height: 37px;
 	font-size: 14px;
-	float: left;
+	float: right;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: white;	
 }
 
-.section5 div {
+.calender div {
 	border-bottom: 2px solid #f6f6f6;		
 	height: 33px;
 	background:white;
 	padding-left:10px;
 }
 
-.section5 span {
+.calender span {
 	margin-left: 2px;
 }
 
-.section5 #middle {
+.calender #middle {
 	margin-left: 40px;
 }
 
-.section5 #right {
+.calender #right {
 	background: white;
 	position: relative;
 	left: 40px;
 }
 
-.section6 {
-	height: 160px;
-	width: 216px;
+.tags {
+	height: 230px;
+	width: 260px;
+	margin-top:15px;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 	background: white;
 	float: right;
-	float: left;
+	
 	padding: 20px;
 }
 
-.section6 #secname { 
+.tags #secname { 
 	font-size:14px;
 	margin-bottom:30px;
 	color:grey;
 }
 
 
-.section6 span {
+.tags span {
 	margin-left: -2px;
 	margin-right: -2px;
 	font-size: 12px;
@@ -187,76 +235,24 @@ span.middle {
 	font-size: 20px;
 }
 
-.sidebar1 {
-	width: 50px;
-	height: 40px;
-	background: green;
-	float: left;
-	position: absolute;
-	top: 130px;
-	left: 268px;
-}
-
-.sidebar2 {			
-	width:50px;
-	height:40px;
-	background:blue;
-	float:left;
-	position:absolute;
-	left:268px;
-	top:170px;
-}
-
-.sidebar3 {
-	width: 50px;
-	height: 40px;
-	background: black;
-	color: white;
-	float: left;
-	position: absolute;
-	top: 430px;
-	left: 268px;
-}
-
-.sidebar4 {
-	width: 50px;
-	height: 40px;
-	background: red;
-	color: white;
-	float: left;
-	position: absolute;
-	left: 268px;
-	top: 470px;
-}
-
-.sidebar1,
-.sidebar2,
-.sidebar3,
-.sidebar4 {
-	text-align:center;
-}
-
-.section4 {
-	width: 660px;
-	background:white;
-	margin-top:10px;
-	padding:20px;
-	float: left;
-}
-
-#bottom { 
+#blog-nav { 
 	margin-top: 10px;
 	width: 660px;
 	background: black;
-	clear: top;
+	clear: both;
+
 }
 
-#bottom div {
+#blog-nav div {
 	float: left;
 	margin: 0px 8px;
 	position: relative;
-	top: -250px;
+	top: -120px;
 	left: 47px;
+}
+
+#blog-nav p {
+	font-size:12px;
 }
 
 .section7 {
@@ -272,47 +268,3 @@ span.middle {
 	background: white;
 	text-align: center;	
 }
-
-#bottom p {
-	font-size:12px;
-}
-
-#test {
-	background: white;
-	height: 65px;
-	width: 50px;
-	   }
-
-.section3 a, 
-.section2 a, 
-.section7 a, 
-.section8 a {
-	color:#000000;
-}
-
-.section3 a {
-	border-left:3px solid black;
-	padding-top:16px;
-	padding-left:0px;
-	padding-bottom:18px;
-	padding-left:20px;
-	position:relative;
-	left:-17px;
-}
-
-.section3 a:hover {
-	border-left:3px solid yellow;
-}
-
-#inputbutton a{
-	position: relative;
-	top: 10px;
-	padding: 10px 15px;
-	border: 1px solid black;
-}
-
-
-#inputbutton a:hover{
-	background: black;
-	color: white;
-}          
