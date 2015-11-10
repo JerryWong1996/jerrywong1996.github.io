@@ -8,19 +8,21 @@
     </head>
     <body>       
         <header>
-            <div id="logo">
-                <a href="index.html"><img src="img/logo.png" alt="Jerrywong"></a>
+            <div id="header-content">
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="Jerrywong"></a>
+                </div>
+                <p id="nav">
+                    <span><a class="innerlink" href="index.html">首页</a></span>
+                    <span><a class="innerlink" href="blog.html">文章</a></span>
+                    <span><a class="innerlink" href="gallery.html">作品</a></span>
+                    <span><a class="innerlink" href="about.html">关于</a></span>
+                </p>
             </div>
-            <p id="nav">
-                <span><a class="innerlink" href="index.html">首页</a></span>
-                <span><a class="innerlink" href="blog.html">文章</a></span>
-                <span><a class="innerlink" href="gallery.html">作品</a></span>
-                <span><a class="innerlink" href="about.html">关于</a></span>
-            <p>
             <div id="github-top">
-                <img src="img/icon-github.png">
+                <a href="https://github.com/JerryWong1996"><img src="img/icon-github.png"></a>
             </div>
-        </header>           
+        </header>
         <div id="bd">        
             <div class="main">
                 <div id="left">
@@ -37,6 +39,22 @@
                             </p>
                             <p class="info">Jerrywong 发表于 2015年10月28日</p>
                     </div>
+
+                    <div class="section2">
+                        <p>
+                            <input id="inputtext" type="text" value="" placeholder="没有输入的时候我就出现啦！" />
+                            <div id="inputbutton">
+                            <a id="searchbutton" href="gallery.html">GO</a>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="section3">
+                        <div><a href="blog.html">HTML</a></div>
+                        <div><a href="blog.html">css</a></div>  
+                        <div><a href="blog.html">JavaScript</a></div>       
+                        <div><a href="blog.html">其他文章</a></div>   
+                    </div>             
                     <div class="section4">
                             <div class="sidebar3"><h1>10.28</h1></div>
                             <div class="sidebar4"><h1>前端</h1></div>
@@ -52,20 +70,8 @@
                     </div>
                 </div>
                 <div id="right">
-                    <div class="section2">
-                        <p>
-                            <input id="inputtext" type="text" value="" placeholder="没有输入的时候我就出现啦！" />
-                            <div id="inputbutton">
-                            <a id="searchbutton" href="gallery.html">GO</a>
-                            </div>
-                        </p>
-                    </div>
-                    <div class="section3">
-                        <div><a href="blog.html">HTML</a></div>
-                        <div><a href="blog.html">css</a></div>  
-                        <div><a href="blog.html">JavaScript</a></div>       
-                        <div><a href="blog.html">其他文章</a></div>   
-                    </div>             
+                    
+                    
                     <div class="section5">
                             <div>
                                 <span>&lt;</span>
@@ -151,59 +157,80 @@
                     <div class="section7"><p><a href="blog.html">尾一页</a></p></div>
                 </div> 
             </div>                              
-            <div class="sub"></div>         
-            <div class="extra"></div>    
+            
         </div>   
-        <footer>
-            <div id="line"></div>
-            <p id="navbottom">
-                <span><a class="innerlink" href="index.html">首页</a></span>
-                <span><a class="innerlink" href="blog.html">文章</a></span>
-                <span><a class="innerlink" href="gallery.html">作品</a></span>
-                <span><a class="innerlink" href="about.html">关于</a></span>
-            </p>
-            <p id="bottomlink">
-                <span class="first"><a>学习资料</a></span>
-                <span><a>友情链接</a></span>
-                <span><a>学习资料</a></span>
-                <span><a>友情链接</a></span>
-                <span><a>学习资料</a></span>
-            </p>
-            <p id="bottomlinkenglish">
-                <span class="first"><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <br>
-                <span class="first"><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <br>
-                <span class="first"><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <br>
-                <span class="first"><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <br>
-                <span class="first"><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-                <span><a href="index.html">LINK</a></span>
-            </p>
-            <div id="githubbottom">
-                <p>版权信息</p>                 
-                <img src="img/icon-github.png">
+        <footer>                
+            <nav class="footer-nav">
+                <ul>
+                    <li><a class="innerlink" href="index.html">首页</a></li>
+                    <li><a class="innerlink" href="blog.html">文章</a></li>
+                    <li><a class="innerlink" href="gallery.html">作品</a></li>
+                    <li><a class="innerlink" href="about.html">关于</a></li>
+                </ul>
+            </nav>
+
+            <div class="line"></div>  
+            
+            <div class="link">
+                <div class="footernav2">
+                    <ul>
+                        <li><a>学习资料</a></li>
+                        <li><a>友情链接</a></li>
+                        <li><a>学习资料</a></li>
+                        <li><a>友情链接</a></li>
+                        <li><a>学习资料</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-top">
+                    <ul>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-middle">
+                    <ul>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                    </ul>
+                </div>  
+                <div class="footer-link">
+                    <ul>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-third">
+                    <ul>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-bottom">
+                    <ul>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                        <li><a href="index.html">LINK</a></li>
+                    </ul>
+                </div>
             </div>
+            <div id="copyright">
+                 <p>版权信息</p>                 
+                <img src="img/icon-github.png">
+            </div>      
         </footer>
     </body>
 </html>

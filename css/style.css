@@ -1,21 +1,29 @@
+body { 
+	font-family: Microsoft YaHei, sans-serif;
+		}
+
+body, img{
+	margin:0px;
+}
+
 header {
 	height: 80px;
-	margin-top: -12px;
-	margin-left: -8px;
-	margin-right: -8px;
 	background: black;
+	position:relative;
 }
 
-#top {
-	width:980px;
-	margin:0px auto;
+#header-content {
+	width: 980px;
+	margin: 0px auto;
+	
+	height:80px;
+	vertical-align: bottom;
 }
-
 
 #logo { 
+	float:left;
+	margin-top:35px;
 	display: inline-block;
-	
-	margin-top: 30px;
 }
 
 #nav {
@@ -23,7 +31,9 @@ header {
 	color: white;
 	font-size: 14px;
 	float:right;
-	margin-top:50px;
+	margin-top:55px;
+	margin-bottom:0px;
+	
 }
 
 span {
@@ -31,74 +41,98 @@ span {
 }
 
 #github-top { 
+	width:30px;
+	height:34px;
 	position: absolute;
-	right: 0px;
-	top: 38px;
+	right:0px;
+	bottom:0px;
+
 }
+
+/* footer */
 
 footer {
-	height:520px;
+	height:450px;
 	background:black;
-	margin-left:-8px;
-	margin-right:-8px;
-	margin-bottom:-8px;
 	color:white;
 	clear:left;
+	position:relative;
 }
 
-footer #line {
-	position:relative;
-	top:44px;
+footer .line {
 	height:1px;
+	width:980px;
+	margin:0px auto;
+	position:relative;
+	top:14px;
 	background:white;
 }
 
-#navbottom {
+
+.footer-nav {
 	text-align: center;
 	color: white;
 	font-size: 14px;
-	margin-top: 14px;
-	margin-bottom: 14px;
+	position:relative;
+	top:14px;
+
 }
 
-#bottomlink {
+.footer-nav li {
+	display: inline-block;
+	margin:0px 15px;
+}
+
+
+.link {
+	margin-top:30px;
+	text-align: center;
+}
+
+.link li {
+	display:inline-block;
+	margin: 0px 80px;
+	font-size: 12px;
+	position:relative;
+	left:-20px;
+}
+
+
+
+
+.footernav2 li  {
+	margin: 0px 65px;
 	font-size: 14px;
-	position: relative;
-	top: 60px;
+	position:relative;
+	top:40px;
 }
 
-#bottomlink span.first {
-	margin-left:310px;
-	margin-right:70px;
+.footer-link-top li {
+	position:relative;
+	top:50px;
 }
 
-#bottomlink span {
-	margin-left: 70px;
-	margin-right: 70px;
+.footer-link-middle li {
+	position:relative;
+	top: 25px;
 }
 
-#bottomlinkenglish {
-	font-size: 14px;
-	position: relative;
-	top: 90px;
-	line-height: 1.7em;
+.footer-link-third li {
+	position:relative;
+	top: -25px;
 }
 
-#bottomlinkenglish span.first {
-	margin-left: 310px;
-	margin-right: 84px;
+.footer-link-bottom li {
+	position:relative;
+	top: -50px;
 }
 
-#bottomlinkenglish span {
-	margin-left: 84px;
-	margin-right: 84px;
-}
-
-#githubbottom { 
+#copyright { 
+	
 	font-size: 14px;
 	text-align: center;
-	position: relative;
-	top: 252px;
+	position:relative;
+	top:43px;
 }
 
 a {
@@ -106,7 +140,7 @@ a {
 	color: white; 
 }
 
-#bottomlinkenglish a:hover {
+.link a:hover {
 	text-decoration:underline;
 }
 

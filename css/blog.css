@@ -1,10 +1,12 @@
 body { background:#f6f6f6;}
 
 .main {        
-    float: left;       
-    width: 100%;
+         
+    width: 980px;
     height: 1000px;
+    margin: 0px auto;
     margin-top: 20px;
+    position:relative;
  }  
 
  .main h1 { 
@@ -12,28 +14,13 @@ body { background:#f6f6f6;}
  }
 
  .left {
- 	margin-left:300px;
+ 	
  }
 
-.sub {       
-    float: left;        
-    width: 300px;        
-    margin-left: -100%;
-    position: relative;        
-    left: -300px;  
-    height: 50px;    
-}   
-.extra {        
-    float: left;        
-    width: 310px;        
-    margin-left: -310px;
-    background: yellow; 
-    position: relative;        
-    right: -318px;     
- }
+
 
  #bd {        
-    padding: 0 310px 0 310px;
+   
     background: #f6f6f6;   
  }
 
@@ -52,10 +39,11 @@ body { background:#f6f6f6;}
 	width: 660px;
 	background: white;
 	padding: 20px;
+	float:left;
 }
 
 #left {
-	width: 700px; 
+	
 	}
 
 #right {
@@ -82,11 +70,13 @@ p.info {
 	height: 45px;
 	width: 216px;
 	background: white;
-	float: right;
-	position: relative;
-	top: -578px;
-	left: 20px;
-	padding: 20px;
+	float: left;
+	position:absolute;
+	right:0px;
+	top:10px;
+
+
+	
 }
 
 #inputtext {
@@ -120,10 +110,8 @@ p.info {
 	height: 200px;
 	width: 256px;
 	background: white;
-	float: right;
-	position: relative;
-	left: 276px;
-	top: -488px;
+	float: left;
+	
 	font-size: 16px;
 	vertical-align: middle;
 }
@@ -140,13 +128,12 @@ p.info {
 	height: 220px;
 	width: 216px;
 	background: white;
-	float: right;
-	position: relative;
-	left: 533px;
-	top: -276px;
+	
+	
 	padding: 20px;
 	line-height: 37px;
 	font-size: 14px;
+	float: left;
 }
 
 .section5 div {
@@ -175,9 +162,7 @@ p.info {
 	width: 216px;
 	background: white;
 	float: right;
-	position: relative;
-	top: -264px;
-	left: 20px;
+	float: left;
 	padding: 20px;
 }
 
@@ -256,12 +241,14 @@ span.middle {
 	background:white;
 	margin-top:10px;
 	padding:20px;
+	float: left;
 }
 
 #bottom { 
 	margin-top: 10px;
 	width: 660px;
 	background: black;
+	clear: top;
 }
 
 #bottom div {

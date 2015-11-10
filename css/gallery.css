@@ -2,9 +2,7 @@
 	display: inline-block;
 	color: white;
 	font-size: 14px;
-	position: absolute;
-	right: 310px;
-	top: 47px;
+	
 }
 
 body {
@@ -12,34 +10,20 @@ body {
 }
 
 .main {        
-    float: left;       
-    width: 100%; 
-    height: 900px;          
+         
+    width:980px; 
+    height: 900px; 
+    margin:0px auto;         
     margin-top: 20px; 
     margin-bottom: 100px; 
+    position:relative;
  }  
 
- .sub {       
-    float: left;        
-    width: 302px;        
-    margin-left: -100%;            
-    height:200px; 
-    position: relative;        
-    left: -302px;  
-}  
+ 
+.top {
+	width:700px;
+}
 
- .extra {        
-    float: left;        
-    width: 302px;        
-   	margin-left: -302px; 
-    height:200px;
-    position: relative;        
-    right: -302px;
- }
-
- #bd {        
-    padding: 0 302px 0 302px;   
- }
 
  .top div {
  	font-size: 15px;
@@ -55,7 +39,7 @@ body {
 
 .middle { 
 	width: 660px;
-	height: 720px;
+	height: 740px;
 	background: white;
 	float: left;
 	padding: 20px;
@@ -109,13 +93,14 @@ body {
 .content21 {
 	float: left;
 	margin-left: 10px;
-	margin-top: -70px;
+	margin-top: -80px;
 }
 
 .content22 {
 	float: left;
-	margin-left: 10px;
-	margin-top: -140px;
+	margin-left: 180px;
+	margin-top: -160px;
+
 }
 
 .text2 {
@@ -140,12 +125,12 @@ body {
 
 .content4 {
 	float: left;
-	margin-top: -225px;
+	margin-top: -255px;
 }
 
 .content41 {
 	float: left;
-	margin-top: -40px;
+	margin-top: -65px;
 }
 
 
@@ -159,13 +144,13 @@ body {
 .content5 {
 	float: left;
 	margin-left: 10px;
-	margin-top: -225px;
+	margin-top: -255px;
 }
 
 .content51 {
 	float: left;
 	margin-left: 10px;
-	margin-top: 0px;
+	margin-top: -70px;
 }
 
 
@@ -181,10 +166,13 @@ body {
 	height: 45px;
 	background: white;
 	margin-top: 50px;
-	margin-left: 710px;
-	margin-bottom: 10px;
 	padding: 20px;
 	border: 1px solid #f6f6f6;
+	position:absolute;
+	right:0;
+	top:0px;
+
+	
 }
 
 #inputtext {
@@ -217,11 +205,15 @@ body {
 
 #rank {
 	width: 240px;
-	height: 208px;
+	height: 228px;
 	background: white;
 	margin-left: 710px;
 	padding: 10px 10px 15px 10px;
 	font-size: 12px;
+	position:absolute;
+	right:0;
+	top:150px;
+
 }
 
 #tablename {
