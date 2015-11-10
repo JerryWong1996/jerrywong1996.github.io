@@ -52,7 +52,7 @@ span {
 /* footer */
 
 footer {
-	height:450px;
+	height:400px;
 	background:black;
 	color:white;
 	clear:left;
@@ -83,56 +83,61 @@ footer .line {
 	margin:0px 15px;
 }
 
+.footer-wrap {
+	margin:0px auto;
+	width:980px;
+}
+
 
 .link {
+
 	margin-top:30px;
-	text-align: center;
+	margin-bottom:63px;
+	
 }
 
 .link li {
-	display:inline-block;
-	margin: 0px 70px;
+	
+	
 	font-size: 12px;
-	position:relative;
-	left:-20px;
+	list-style: none;
+	margin-left: -40px;
+
+	
+}
+
+.footer-link {
+	display:inline-block;
+	width:196px;
+	float:left;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+.footer-link p {
+	
+	text-align:center;
+	font-size: 12px;
+	margin-bottom: 50px;
+}
+
+.footer-link ul {
+	margin:0px auto;
+
 }
 
 
 
-
-.footernav2 li  {
-	margin: 0px 55px;
-	font-size: 14px;
-	position:relative;
-	top:40px;
-}
-
-.footer-link-top li {
-	position:relative;
-	top:50px;
-}
-
-.footer-link-middle li {
-	position:relative;
-	top: 25px;
-}
-
-.footer-link-third li {
-	position:relative;
-	top: -25px;
-}
-
-.footer-link-bottom li {
-	position:relative;
-	top: -50px;
-}
 
 #copyright { 
-	
+	width:100%;
 	font-size: 14px;
+	clear:left;
+	position:absolute;
+	bottom:0px;
 	text-align: center;
-	position:relative;
-	top:43px;
+	
 }
 
 a {
